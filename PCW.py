@@ -149,7 +149,7 @@ class PCW(nn.Module):
         self.BatchNorm1 = nn.BatchNorm1d(num_features=1200)
 
         self.BatchNorm2 = nn.BatchNorm1d(num_features=900)
-        self.dropout = nn.Dropout(0.2) #best=0.3
+        self.dropout = nn.Dropout(0.3) #best=0.3
 
     def forward(self, input):
 
